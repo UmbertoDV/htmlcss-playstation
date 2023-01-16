@@ -1,9 +1,6 @@
 :root{
     --header-height: 135px;
 }
-/* HEADER */
-
-/* MAIN */
 main{
     margin-top: var(--header-height);
 }
@@ -13,4 +10,9 @@ main{
     background-size: cover;
     background-position: center;
     height: calc(100vh - var(--header-height));
+}
+#it-takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
 }
