@@ -1,6 +1,9 @@
 :root{
     --header-height: 135px;
 }
+.top-header > img{
+    width: 100px;
+}
 main{
     margin-top: var(--header-height);
 }
