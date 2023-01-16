@@ -1,0 +1,16 @@
+:root{
+    --header-height: 135px;
+}
+/* HEADER */
+
+/* MAIN */
+main{
+    margin-top: var(--header-height);
+}
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - var(--header-height));
+}
