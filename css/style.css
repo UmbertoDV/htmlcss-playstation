@@ -22,3 +22,15 @@ main{
     background-position: center;
     background-size: cover;
 }
+.globe-svg{
+    width: 5%;
+}
+nav>ul>li>a{
+    color: white !important;
+    text-decoration: none;
+    list-style: none;
+    
+}
+nav>ul>li{
+    list-style: none;
+}
